@@ -1,0 +1,124 @@
+/* Custom CSS */
+:root {
+    --gradient-start: #4f46e5;
+    --gradient-middle: #9333ea;
+    --gradient-end: #db2777;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Navigation */
+.navbar {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background: #1a1a1a;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-middle), var(--gradient-end));
+    padding: 160px 0 100px;
+    position: relative;
+    height: 100vh;
+}
+
+/* New Key Highlights Background */
+.key-highlights {
+    background-color: #f1f5f9;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+/* Category Cards */
+.category-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon-box i {
+    font-size: 1.5rem;
+}
+
+/* Tool Cards */
+.tool-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tool-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.tool-rating {
+    color: #fbbf24;
+}
+
+/* Newsletter Section */
+.newsletter-form .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.newsletter-form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Footer */
+.social-links a {
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.category-card,
+.tool-card {
+    animation: fadeIn 0.6s ease-out forwards;
+}

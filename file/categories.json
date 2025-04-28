@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Text & Writing",
+        "icon": "bi-pencil-square",
+        "count": 156,
+        "subcategories": [
+            { "title": "copywriting", "count": 30 },
+            { "title": "summarizer", "count": 25 },
+            { "title": "storyteller", "count": 20 },
+            { "title": "writing generators", "count": 28 }
+        ]
+    },
+    {
+        "title": "Image Generation",
+        "icon": "bi-image",
+        "count": 200,
+        "subcategories": [
+            { "title": "text to image", "count": 35 },
+            { "title": "image editing", "count": 40 },
+            { "title": "image generators", "count": 38 },
+            { "title": "cartoon generators", "count": 22 },
+            { "title": "portrait generators", "count": 20 },
+            { "title": "logo generator", "count": 25 },
+            { "title": "design generators", "count": 20 }
+        ]
+    },
+    {
+        "title": "Video Generation",
+        "icon": "bi-camera-reels",
+        "count": 120,
+        "subcategories": [
+            { "title": "video editing", "count": 35 },
+            { "title": "video enhancer", "count": 30 },
+            { "title": "video generators", "count": 28 },
+            { "title": "text to video", "count": 27 }
+        ]
+    },
+    {
+        "title": "Audio & Music",
+        "icon": "bi-music-note",
+        "count": 100,
+        "subcategories": [
+            { "title": "audio editing", "count": 25 },
+            { "title": "music", "count": 30 },
+            { "title": "transcriber", "count": 20 },
+            { "title": "text to speech", "count": 25 }
+        ]
+    },
+    {
+        "title": "3D & Animation",
+        "icon": "bi-box",
+        "count": 50,
+        "subcategories": [
+            { "title": "3D", "count": 30 },
+            { "title": "avatars", "count": 20 }
+        ]
+    },
+    {
+        "title": "Development",
+        "icon": "bi-code-slash",
+        "count": 90,
+        "subcategories": [
+            { "title": "code assistant", "count": 25 },
+            { "title": "low-code/no-code", "count": 20 },
+            { "title": "SQL", "count": 25 },
+            { "title": "website builders", "count": 20 }
+        ]
+    },
+    {
+        "title": "Business",
+        "icon": "bi-briefcase",
+        "count": 130,
+        "subcategories": [
+            { "title": "e-commerce", "count": 25 },
+            { "title": "marketing", "count": 30 },
+            { "title": "real estate", "count": 20 },
+            { "title": "sales", "count": 20 },
+            { "title": "startup tools", "count": 15 },
+            { "title": "workflows", "count": 10 },
+            { "title": "SEO", "count": 10 }
+        ]
+    },
+    {
+        "title": "Education",
+        "icon": "bi-book",
+        "count": 60,
+        "subcategories": [
+            { "title": "education", "count": 25 },
+            { "title": "teachers", "count": 20 },
+            { "title": "research", "count": 15 }
+        ]
+    },
+    {
+        "title": "Productivity",
+        "icon": "bi-check-circle",
+        "count": 110,
+        "subcategories": [
+            { "title": "project management", "count": 25 },
+            { "title": "personal assistant", "count": 20 },
+            { "title": "customer support", "count": 15 },
+            { "title": "email assistant", "count": 15 },
+            { "title": "presentations", "count": 15 },
+            { "title": "search engine", "count": 10 },
+            { "title": "ai chatbots", "count": 10 }
+        ]
+    },
+    {
+        "title": "Entertainment & Fun",
+        "icon": "bi-controller",
+        "count": 80,
+        "subcategories": [
+            { "title": "gaming", "count": 30 },
+            { "title": "fun tools", "count": 20 },
+            { "title": "gift ideas", "count": 15 },
+            { "title": "fashion", "count": 15 }
+        ]
+    },
+    {
+        "title": "Social Media",
+        "icon": "bi-chat-dots",
+        "count": 40,
+        "subcategories": [
+            { "title": "social media", "count": 40 }
+        ]
+    },
+    {
+        "title": "Translation & Communication",
+        "icon": "bi-translate",
+        "count": 20,
+        "subcategories": [
+            { "title": "translator", "count": 20 }
+        ]
+    }
+]
