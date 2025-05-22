@@ -432,7 +432,7 @@ function logout() {
   if (confirmLogout) {
     localStorage.removeItem("loggedInUser");
     alert("You have been logged out successfully!");
-    window.location.href = "intro.html";
+    window.location.href = "index.html";
   }
 }
 
