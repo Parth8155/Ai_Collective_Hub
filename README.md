@@ -1,6 +1,6 @@
 # Ai_Collective_Hub
 
-Ai_Collective_Hub is a platform dedicated to the collection and exploration of various types of Artificial Intelligence (AI) systems. It allows users to contribute new AI solutions, provide feedback on existing ones, and collaborate in building a diverse AI ecosystem.
+Ai_Collective_Hub is a platform dedicated to the collection and exploration of various types of Artificial Intelligence (AI) systems. It allows users to contribute new AI , provide feedback on existing ones, and collaborate in building a diverse AI ecosystem.
 
 ## Features
 
